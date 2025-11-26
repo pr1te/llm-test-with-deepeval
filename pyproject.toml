@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llm-test"
+version = "0.1.0"
+description = ""
+authors = ["Jugkapong Pooban <j.pooban@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+deepeval = "^3.7.2"
+mcp = "^1.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
